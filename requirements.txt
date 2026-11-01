@@ -1,0 +1,4 @@
+PyQt6>=6.5
+opencv-contrib-python>=4.8
+mediapipe>=0.10.9,<0.10.22   # legacy mp.solutions API
+numpy>=1.24

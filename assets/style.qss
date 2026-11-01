@@ -1,0 +1,15 @@
+QDialog, QWidget { font-size: 13px; }
+QDialog { background: #1c1c1e; color: #f2f2f7; }
+QLabel { color: #f2f2f7; }
+QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox, QListWidget {
+    background: #2c2c2e; color: #f2f2f7; border: 1px solid #3a3a3c;
+    border-radius: 6px; padding: 4px 6px;
+}
+QCheckBox { color: #f2f2f7; }
+QPushButton {
+    background: #0a84ff; color: white; border: none; border-radius: 6px; padding: 6px 14px;
+}
+QPushButton:hover { background: #409cff; }
+QPushButton:disabled { background: #3a3a3c; color: #8e8e93; }
+QProgressBar { background: #2c2c2e; border: none; border-radius: 4px; height: 8px; text-align: center; }
+QProgressBar::chunk { background: #30d158; border-radius: 4px; }
